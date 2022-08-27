@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+.firstPageNavbar{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  background-color: orangered;
+  color: white;
+  height: 60px;
+}
+.pizzaImg{
+  height: 250px;
+  width: auto;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 5px 5px 15px black;
+}
+
+.img{
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+  gap: 15px;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.NavBar{
+  background-color: black;
+  width: 100vw;
+}
